@@ -28,7 +28,7 @@ class Datarecover(object):
         self.site = site
         self.log = {}
 
-        self.output_path = f"{constants.OUTPUT_DIR}/{self.site}/missing_{self.site}.csv"
+        self.missing_file_path = f"{constants.OUTPUT_DIR}/{self.site}/missing_{self.site}.csv"
         self.log_file_path = f"{constants.LOG_FILE_DIR}/{self.site}/{self.site}_log.json"
 
     def is_path_exit(self, path:str) -> bool:
@@ -90,13 +90,13 @@ class Datarecover(object):
 
     def create_file(self) -> None:
         """ ## create file to save missing data """
-        if not self.is_path_exit(self.output_path):
+        if not self.is_path_exit(self.missing_file_path):
             try:
                 os.makedirs(f"{constants.OUTPUT_DIR}/{self.site}/")
             except FileExistsError:
                 pass
             df = pd.DataFrame(columns=constants.FIELDS[self.site])
-            df.to_csv(self.output_path, index=False)
+            df.to_csv(self.missing_file_path, index=False)
 
     def save_missing_data(self, values:list) -> None:
         """ ## save data to csv
@@ -104,7 +104,7 @@ class Datarecover(object):
             - `values (list)`: list of data dictionary format
         """
         df = pd.DataFrame(values)
-        df.to_csv(self.output_path, index=False,header=False, mode='a')
+        df.to_csv(self.missing_file_path, index=False,header=False, mode='a')
 
     def search_at_dataframe(self, dataframe:object, data_to_find:dict, check_fields:list) -> tuple:
         """## search data type dictionary in dataframe
@@ -260,7 +260,7 @@ class Datarecover(object):
 
                 #etape pour prendre en compte le missing file
                 if file_index > 1:
-                    missing_file = self.read_file(self.output_path)
+                    missing_file = self.read_file(self.missing_file_path)
                     new_file = pd.concat[self.file_to_check, missing_file]
                     self.file_to_check = new_file
 
@@ -273,10 +273,11 @@ class Datarecover(object):
                                                 data_to_find=data_to_check, 
                                                 check_fields=constants.CHEKING_FIELDS[self.site])
                     if has_data:
-                        missing_data = self.get_missing_formated_data(data_to_check, search_result)
-                        self.save_missing_data(missing_data)
+                        pass
+                        # self.save_missing_data(search_result)
                     else:
-                        self.save_missing_data([data_to_check])
+                        missing_data = self.update_data(data_to_check)
+                        self.save_missing_data([missing_data])
                     self.set_log(key='last_row_index', Key_value=k+1)
                     bar.next()
                     self.print_treatment_range()
