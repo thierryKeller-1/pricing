@@ -1,0 +1,21 @@
+web-scrapper-order,date_price,date_debut,date_fin,prix_init,prix_actuel,typologie,n_offre,nom,localite,date_debut-jour,Nb semaines,cle_station,nom_station
+,20/05/2024,31/08/2024,06/09/2024,735.0,589.0,Studio 2 ou 4 Personnes - B23,713874,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,735.0,589.0,Studio 2 ou 4 Personnes - B21,713864,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,840.0,679.0,Studio 4 ou 6 Personnes - A22,713894,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,910.0,729.0,2 Pièces 2 ou 4 Personnes - B32,713904,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,910.0,729.0,2 Pièces 2 ou 4 Personnes - B42,713914,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,910.0,729.0,2 Pièces 2 ou 4 Personnes - D42,713954,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,980.0,789.0,2 Pièces 4 ou 6 Personnes - B12 Etage 1,713964,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1190.0,959.0,3 Pièces 6 Personnes - D23,714094,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1190.0,959.0,3 Pièces 6 Personnes - D41,714124,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1190.0,959.0,3 Pièces 6 Personnes - B33,714024,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1190.0,959.0,3 Pièces 6 Personnes - B43,714044,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1190.0,959.0,3 Pièces 6 Personnes - C31,714064,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1190.0,959.0,3 Pièces 6 Personnes - C33,714074,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1190.0,959.0,3 Pièces 6 Personnes - D43,714134,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1260.0,1009.0,3 Pièces 8 Personnes - A42,714144,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1260.0,1009.0,3 Pièces 8 Personnes - A32,660624,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1400.0,1129.0,4 Pièces 8 Personnes - A31,714164,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1400.0,1129.0,4 Pièces 8 Personnes - A41,714174,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1400.0,1129.0,4 Pièces 6 Personnes - B51,714184,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,20/05/2024,31/08/2024,06/09/2024,1540.0,1239.0,3 Pièces 8 Personnes - C21,660634,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
