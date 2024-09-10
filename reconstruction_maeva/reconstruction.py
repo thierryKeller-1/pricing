@@ -227,6 +227,8 @@ class Datarecover(object):
         """
         date_interval = self.get_date_interval(data)
         data['date_price'] = self.add_days(data['date_price'], date_interval)
+        data['date_debut'] = self.add_days(data['date_debut'], date_interval)
+        data['date_fint'] = self.add_days(data['date_fin'], date_interval)
         return data
 
     def get_missing_formated_data(self, data_to_check:dict, result_list:pd.DataFrame) -> bool:

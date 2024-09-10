@@ -1,9 +1,9 @@
 {
     "files": [
-        "C:/Users/Keller/Documents/Jobdev/pricing/pricing/reconstruction_maeva/data/maeva/27-05-2024/maeva_test2.csv",
-        "C:/Users/Keller/Documents/Jobdev/pricing/pricing/reconstruction_maeva/data/maeva/20-05-2024/maeva_test.csv"
+        "C:/Users/Keller/Documents/Jobdev/pricing/pricing/reconstruction_maeva/data/maeva/27-05-2024/maeva_cleaned_27_05_2024.csv",
+        "C:/Users/Keller/Documents/Jobdev/pricing/pricing/reconstruction_maeva/data/maeva/20-05-2024/maeva_cleaned_20_05_2024.csv"
     ],
     "total_files": 2,
-    "last_file_index": 1,
-    "last_row_index": 20
+    "last_file_index": 0,
+    "last_row_index": 5687
 }

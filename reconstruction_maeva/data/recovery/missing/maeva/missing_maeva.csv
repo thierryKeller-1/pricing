@@ -1,10 +1,22 @@
 web-scrapper-order,date_price,date_debut,date_fin,prix_init,prix_actuel,typologie,n_offre,nom,localite,date_debut-jour,Nb semaines,cle_station,nom_station
-,27/05/2024,31/08/2024,06/09/2024,735.0,589.0,Studio 2 ou 4 Personnes - B23,713874,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
-,27/05/2024,31/08/2024,06/09/2024,735.0,589.0,Studio 2 ou 4 Personnes - B21,713864,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
-,27/05/2024,31/08/2024,06/09/2024,840.0,679.0,Studio 4 ou 6 Personnes - A22,713894,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
-,27/05/2024,31/08/2024,06/09/2024,910.0,729.0,2 Pièces 2 ou 4 Personnes - B32,713904,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
-,27/05/2024,31/08/2024,06/09/2024,910.0,729.0,2 Pièces 2 ou 4 Personnes - D42,713954,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
-,27/05/2024,31/08/2024,06/09/2024,1190.0,959.0,3 Pièces 6 Personnes - B33,714024,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
-,27/05/2024,31/08/2024,06/09/2024,1400.0,1129.0,4 Pièces 8 Personnes - A31,714164,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
-,27/05/2024,31/08/2024,06/09/2024,1400.0,1129.0,4 Pièces 8 Personnes - A41,714174,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
-,27/05/2024,31/08/2024,06/09/2024,1400.0,1129.0,4 Pièces 6 Personnes - B51,714184,Résidence Les Grandes Alpes,La Clusaz,,35,38,La Clusaz
+,27/05/2024,01/06/2024,31/05/2024,629.0,629.0,3 Pièces pour 6 Personnes,1134204,Résidence Verdets,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,439.0,439.0,2 Pièces pour 5 Personnes,739704,Résidence Grand Horizon I,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,439.0,439.0,2 Pièces pour 5 Personnes,1169471,Résidence Grand Horizon I,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,802.0,729.0,3 Pièces pour 7 Personnes,739514,Résidence Jardin Alpin Bat B,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,264.0,229.0,Studio pour 4 Personnes,248504,Résidence RÉsidence Les Terrasses,La Joue du Loup,,21,40.0,La Joue du Loup,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,439.0,439.0,Studio pour 4 Personnes,1123934,Résidence Edelweiss,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,439.0,439.0,2 Pièces pour 4 Personnes,739724,Chalet Du Praz Bat A1,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,809.0,809.0,Villa 160m²  ou  3 chambres 6 personnes,1458471,Camping Les Pêcheurs  - Maeva Sélection,Roquebrune-sur-Argens,,21,202.0,Roquebrune-sur-Argens,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,399.0,399.0,2 Pièces 4 Personnes,65615,Résidence Les G'rets,Saint-Gervais Mont-Blanc,,21,86.0,Saint-Gervais Mont-Blanc,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,879.0,879.0,3 Pièces 4 Personnes,879444,Résidence L'Estelan,Le Lavandou,,21,146.0,Le Lavandou,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,809.0,809.0,3 Pièces pour 6 Personnes,739654,Résidence Refuge De L'alpage Bat F,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,629.0,629.0,2 Pièces pour 6 Personnes,739644,Résidence Gelinotte,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,629.0,629.0,2 Pièces pour 6 Personnes,1100194,Résidence Gelinotte,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,1239.0,1239.0,4 Pièces pour 9 Personnes,1113954,Résidence Gelinotte,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,859.0,859.0,3 Pièces pour 6 Personnes,739624,Résidence Refuge De L'alpage Bat A,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,579.0,579.0,3 Pièces pour 4 Personnes,739714,Résidence Hauts Des Esserts,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,1889.0,1889.0,5 Pièces pour 10 Personnes,739394,Résidence Refuge De L'alpage Bat D,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,1109.0,1109.0,4 Pièces pour 8 Personnes,739454,Résidence Hermine I,Morillon,,21,155.0,Morillon,07/06/2024
+,27/05/2024,01/06/2024,31/05/2024,404.0,349.0,2 Pièces pour 6 Personnes,1145244,Résidence RÉsidence Vignec Village,Saint-Lary-Soulan,,21,89.0,Saint-Lary-Soulan,07/06/2024
+,28/05/2024,04/08/2024,03/08/2024,659.0,659.0,2 Pièces 4 Personnes,905624,Location de Vacances Valras-Plage 23,Valras-Plage,,21,,VALRAS-PLAGE,11/08/2024
+,28/05/2024,07/07/2024,06/07/2024,2209.0,2209.0,4 Pièces pour 6 Personnes,1122324,Résidence Ariondaz,Courchevel 1650,,21,,COURCHEVEL 1650,14/07/2024
