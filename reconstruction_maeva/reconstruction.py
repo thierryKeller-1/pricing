@@ -106,7 +106,7 @@ class Datarecover(object):
         df = pd.DataFrame(values)
         df.to_csv(self.missing_file_path, index=False,header=False, mode='a')
 
-    def search_at_dataframe(self, dataframe:object, data_to_find:dict, check_fields:list) -> tuple:
+    def search_at_dataframe(self, dataframe:object, data_to_find:dict, check_fields:list) -> bool:
         """## search data type dictionary in dataframe
         ### Args:
             - `dataframe (object)`: dataframe
@@ -120,7 +120,7 @@ class Datarecover(object):
             conditions &= (dataframe[check_field] == data_to_find[check_field])
         result = dataframe[conditions]
         # print(f"  ==>  {len(result)} data found")
-        return not result.empty, result
+        return not result.empty
 
     def read_file(self, csv_file_path:str) -> pd.DataFrame | None:
         """## read csv files
@@ -272,14 +272,11 @@ class Datarecover(object):
                 bar.index = self.log['last_row_index']
                 for k in range(self.log['last_row_index'], len(self.file_to_check)):
                     data_to_check = self.file_to_check.iloc[k].to_dict()
-                    has_data, search_result = self.search_at_dataframe(
+                    has_data = self.search_at_dataframe(
                                                 dataframe=self.file_checker, 
                                                 data_to_find=data_to_check, 
                                                 check_fields=constants.CHEKING_FIELDS[self.site])
-                    if has_data:
-                        pass
-                        # self.save_missing_data(search_result)
-                    else:
+                    if not has_data:
                         missing_data = self.update_data(data_to_check)
                         self.save_missing_data([missing_data])
                     self.set_log(key='last_row_index', Key_value=k+1)
